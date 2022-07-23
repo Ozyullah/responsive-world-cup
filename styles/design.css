@@ -108,9 +108,7 @@ footer{
 nav a{
     color: white;
     text-decoration: none;
-}
-a{
-    gap: 10px;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width:688px) {

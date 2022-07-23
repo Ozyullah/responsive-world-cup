@@ -77,6 +77,7 @@ section{
 /*---------------------------flag--------------*/
 .Unit-count{
     display: flex;
+    justify-content: center;
     margin-top: 50px;
 }
 .play-shedul{
@@ -93,6 +94,18 @@ section{
 
 
 .footer-design{
-    justify-items: baseline;
+    position: fixed;
+    height: 20%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: blue;
+    color: white;
+    text-align: center;
+}
+hr{
+   align-items: center; 
+}
+nav a{
+    margin-left: 5px;
 }
