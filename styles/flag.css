@@ -1,4 +1,3 @@
-/*------common design ----------------*/
 body{
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
@@ -44,23 +43,21 @@ header main{
     padding: 15px;
     color: white;
 }
-/*-------------med sector----------*/
+/*-------------------button-----------------*/
 main{
+    display: 100%;
+}
+section{
     display: grid;
     justify-content: center;
     width: 1021px;
     height: 550px;
 }
-.anouther-count{
-    display: flex;
-    margin-top: 100px;
-} 
 .mini-container{
     width: 312px;
     height: 312px;
     background-color: blueviolet;
     margin-right: 15px;
-    padding: 10px;
 }
 .button-unit{
     padding: 15px;
@@ -77,59 +74,25 @@ main{
 #design{
     background-color: red;
 }
-/*-------------------------Blogs---------------*/
-.blogs-sector{
+/*---------------------------flag--------------*/
+.Unit-count{
+    display: flex;
+    margin-top: 50px;
+}
+.play-shedul{
     display: grid;
-    grid-template-columns: repeat(3, 0.5fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
-.blogs-unit{
-    width: 312px;
-    height: 362px;
-    margin: 0;
+.container{
+    border: 1px solid black;
 }
-.size-image{
-    width: 250px;
-    height: 175px;
+.items{
+    margin: 10px;
 }
-i{
-    color: gray;
-}
-/*-------------------Footer-----------------*/
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+
+
+.footer-design{
+    justify-items: baseline;
     background-color: blue;
-    color: white;
-    text-align: center;
 }
-nav a{
-    color: white;
-    text-decoration: none;
-}
-a{
-    gap: 10px;
-}
-
-@media only screen and (max-width:688px) {
-    .root-top{
-        flex-direction: column;
-    }
-    .blogs-sector{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
-}
-
-/*--------------tablet-----------*/
-
-@media only screen and (min-width:688px) and (max-width:992px) {
-    .button-unit{
-        flex-direction: row;
-    }
-    .blogs-sector{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}  
