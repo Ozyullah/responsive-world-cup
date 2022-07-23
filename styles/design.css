@@ -3,6 +3,8 @@ body{
     font-family: 'EB Garamond', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif;
+    display: grid;
+    justify-content: center;
 }
 h1{
     font-size: 60px;
@@ -46,11 +48,17 @@ main{
     justify-content: center;
 }
 .anouther-count{
+    display: flex;
+    width: 1021px;
+    height: 550px;
+    margin: 100px;
+    
 }
 .mini-container{
     width: 312px;
     height: 312px;
     background-color: blueviolet;
+    margin-right: 15px;
 }
 .button-unit{
     display: grid;
@@ -62,4 +70,24 @@ main{
     display: block;
     margin-top: 25px;
     border-radius: 15px;
+}
+#design{
+    background-color: red;
+}
+/*-------------------------Blogs---------------*/
+.blogs-sector{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+}
+.blogs-unit{
+    width: 312px;
+    height: 362px;
+}
+.size-image{
+    width: 250px;
+    height: 175px;
+}
+i{
+    color: gray;
 }
