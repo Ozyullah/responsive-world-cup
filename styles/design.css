@@ -124,8 +124,17 @@ nav a{
 /*--------------tablet-----------*/
 
 @media only screen and (min-width:688px) and (max-width:992px) {
+    .root-top{
+        flex-direction: column;
+    }
     .button-unit{
-        flex-direction: row;
+        display: flex; 
+    }
+    .button-design{
+        width: 252px;
+        height: 64px;}
+    .mini-container{
+        background: none;
     }
     .blogs-sector{
         grid-template-columns: repeat(2, 1fr);
