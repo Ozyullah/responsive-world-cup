@@ -1,0 +1,68 @@
+/*------common design ----------------*/
+body{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 60px;
+}
+/*---------header design--------------*/
+.root-top{
+    display: flex;
+    justify-content: center;
+}
+.root-sector{
+    width: 1021px;
+    height: 550px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    padding: 60px;width: 1021px;
+    height: 550px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: white;
+    padding: 60px;
+    display: flex;
+}
+.root-font{
+    width: 531px;
+    height: 424px;
+}
+.root-image{
+    width: 581px;
+    height: 610px;
+    margin-left: 5px;
+}
+.root-buttom{
+    background-color: red;
+    padding: 15px;
+    color: white;
+}
+/*-------------med sector----------*/
+main{
+    display: flex;
+    justify-content: center;
+}
+.anouther-count{
+    width: 1321px;
+    height: 646px;
+    border: 2px solid brown;
+}
+.mini-container{
+    width: 312px;
+    height: 312px;
+    background-color: blueviolet;
+}
+.button-unit{
+    display: grid;
+    justify-content: center;
+}
+.button-design{
+    width: 252px;
+    height: 64px;
+    display: block;
+    margin-top: 25px;
+    border-radius: 15px;
+}
