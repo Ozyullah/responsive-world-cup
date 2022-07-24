@@ -112,8 +112,8 @@ nav a{
 }
 
 @media only screen and (max-width:688px) {
-    .root-top{
-        flex-direction: column;
+    .root-top{       
+        justify-content: center;
     }
     .blogs-sector{
         grid-template-columns: repeat(1, 1fr);
