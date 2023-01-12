@@ -23,7 +23,7 @@ h1{
 }
 .root-sector{
     /* width: 1021px; */
-    height: 550px;
+    height: auto;
     /* margin: auto; */
     background-color: blueviolet;
     border-radius: 10px;
