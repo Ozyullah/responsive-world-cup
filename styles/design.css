@@ -105,7 +105,7 @@ main{
 .blogs-sector{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    gap: 20px;
+    gap: 10px;
 }
 .blogs-unit{
     width: 312px;
