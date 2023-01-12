@@ -105,7 +105,7 @@ main{
 .blogs-sector{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    gap: 30px;
+    gap: 20px;
 }
 .blogs-unit{
     width: 312px;
@@ -114,8 +114,8 @@ main{
     margin-bottom: 50px;
 }
 .size-image{
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
 }
 i{
     color: gray;
